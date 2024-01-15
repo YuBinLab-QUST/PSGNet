@@ -14,12 +14,12 @@ Source code and data for "PSGNet: a pre-training strategy based GraphSAGE and Tr
 - small_molecule.csv -Small molecule information for model training drugs.
 - unknow_drug_by_pychem.csv-No drugs listed for pychem cid.
 ## Source codes
-- Data_encoding.py:The drug data and cancer cell line data are encoded into pytorch tensor format for subsequent model training. Partitioning of the data into training, test and validation sets will also be completed.
-- Model_training.py:Contains the overall framework for the model, using drug data and cancer cell line data for drug response prediction.
-- Model_utils.py:Function call support for the data encoding, model training and model validation sections of the code.
-- Model_validation.py:The trained model is validated to check the generalisation and accuracy of the model.
+- encoding.py:The drug data and cancer cell line data are encoded into pytorch tensor format for subsequent model training. Partitioning of the data into training, test and validation sets will also be completed.
+- train.py:Contains the overall framework for the model, using drug data and cancer cell line data for drug response prediction.
+- utils.py:Function call support for the data encoding, model training and model validation sections of the code.
+- validation.py:The trained model is validated to check the generalisation and accuracy of the model.
 ## Requirements
->requirements.yaml contains all the installation packages required for the model runtime environment
+>requirements.txt contains all the installation packages required for the model runtime environment
  - Operating environment: Linux
  - torch==1.10.2+cu114
  - python==3.8.3
