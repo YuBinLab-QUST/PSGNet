@@ -1,6 +1,7 @@
 import os
 import csv
 import sys
+import random
 from pubchempy import *
 import numpy as np
 import numbers
@@ -13,7 +14,6 @@ from rdkit import Chem
 from rdkit.Chem import MolFromSmiles
 import networkx as nx
 from Model_utils import *
-import random
 import pickle
 import matplotlib.pyplot as plt
 import argparse
