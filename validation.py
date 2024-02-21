@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 import torch
-import torch.nn as nn
 from models.PSGNet import PSGNet
 from Model_utils import *
+import torch.nn as nn
 
 def predicting(model, device, loader):
     total_preds = torch.Tensor()
