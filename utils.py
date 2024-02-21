@@ -1,10 +1,10 @@
 import os
+import torch
 import numpy as np
 from math import sqrt
 from scipy import stats
 from torch_geometric.data import InMemoryDataset, DataLoader
 from torch_geometric import data as DATA
-import torch
 import matplotlib.pyplot as plt
 
 class TestbedDataset(InMemoryDataset):
