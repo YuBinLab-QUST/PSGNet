@@ -1,5 +1,6 @@
 import os
 import csv
+import sys
 from pubchempy import *
 import numpy as np
 import numbers
@@ -14,7 +15,6 @@ import networkx as nx
 from Model_utils import *
 import random
 import pickle
-import sys
 import matplotlib.pyplot as plt
 import argparse
 
