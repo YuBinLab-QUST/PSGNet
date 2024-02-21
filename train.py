@@ -3,6 +3,8 @@ import pandas as pd
 import sys, os
 from random import shuffle
 import torch
+import datetime
+import argparse
 import torch.nn as nn
 from models.gat import GATNet
 from models.gat_gcn import GAT_GCN
@@ -11,8 +13,7 @@ from models.ginconv import GINConvNet
 from models.DbTrs_ge import DbTrs_ge
 from models.MTrsDRP import MTrsDRP
 from Model_utils import *
-import datetime
-import argparse
+
 
 def train(model, device, train_loader, optimizer, epoch, log_interval):
     print('Training on {} samples...'.format(len(train_loader.dataset)))
