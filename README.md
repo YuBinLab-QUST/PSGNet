@@ -4,8 +4,8 @@ Source code and data for "PSGNet: a pre-training strategy based GraphSAGE and Tr
 - Releases -Some data is available inside Releases due to size restrictions.
 - Cell_line_RMA_proc_basalExp.csv -Gene expression data used for model training.
 - Cell_line_RMA_proc_basalExp.txt -Gene expression data used for model training.
-- Cell_list.csv -List of cancer cell line data information.
 - drug_smiles.csv -Contains information about all drug smiles.
+- Cell_list.csv -List of cancer cell line data information.
 - Druglist.csv -All drugs involved in the training of the model.
 - METH_CELLLINES_BEMs_PANCAN.csv -DNA methylation data used for model training.
 - PANCANCER_Genetic_feature.csv -Genomic mutation data used for model training.
